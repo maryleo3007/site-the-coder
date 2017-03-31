@@ -1,0 +1,21 @@
+#contenedor{
+  border-color: #40514E;
+  box-shadow: #11999E;
+  height: 70%;
+}
+#txt_coderName, #txt_post{
+  background: #E3FDFD;
+  border-color: #30E3CA;
+}
+#btn_post{
+  background: #40514E;
+  border-color: #30E3CA;
+  border-radius: 10px;
+}
+#resultado{
+  background: white;
+  border-color: #40514E;
+}
+h1, h2{
+  color: #40514E;
+}
