@@ -36,7 +36,7 @@ function PostCoder(){
 
     df.appendChild(post);
     return df;
-    
+
   }
 
 }
@@ -52,5 +52,7 @@ window.addEventListener('load', function () {
 
       postCoder.addPost(txt_coderName.value,txt_post.value);
       postCoder.printPost(resultado);
+      txt_coderName.value = "";
+      txt_post.value = "";
     });
 });
